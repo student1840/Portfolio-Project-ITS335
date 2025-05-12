@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    transform: translate(100px, 200px) 
+               rotateX(150deg) 
+               rotateY(120deg) 
+               rotateZ(90deg);
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes example {
+    0% {
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: red;
+        left: 0px;
+        top: 200px;
+    }
+    50% {
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    100% {
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+    }
+}
+</style>
+</head>
+<body>
+<div>This is a div element</div>
+</body>
+</html>
