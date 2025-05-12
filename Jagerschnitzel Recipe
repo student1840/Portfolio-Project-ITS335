@@ -1,52 +1,69 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang=“en”>
 <head>
+<meta charset="UTF-8">
+<title> Jägerschnitzel Recipe</title>
 <style>
-div {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border: 1px solid black;
-    transform: translate(100px, 200px) 
-               rotateX(150deg) 
-               rotateY(120deg) 
-               rotateZ(90deg);
-    animation-name: example;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    position: relative;
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #8f8f8;
+padding: 20px;
+max-width: 800px;
+margin: auto;
 }
-@keyframes example {
-    0% {
-        background-color: blue;
-        left: 0px;
-        top: 0px;
-    }
-    25% {
-        background-color: red;
-        left: 0px;
-        top: 200px;
-    }
-    50% {
-        background-color: green;
-        left: 200px;
-        top: 200px;
-    }
-    75% {
-        background-color: yellow;
-        left: 200px;
-        top: 0px;
-    }
-    100% {
-        background-color: blue;
-        left: 0px;
-        top: 0px;
-    }
+h1 {
+color: #a0522d;
+text-align: center;
+}
+.section {
+background-color: #fff:
+padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 80px;
+box-shadow: 0 2px 5px rgba (0,0,0,0.05);
+}
+ul {
+list-style-type: square;
+padding-left: 20px;
+}
+ol {
+padding-left: 20px;
 }
 </style>
 </head>
-<body>
-<div>This is a div element</div>
+  <h1>Jägerschnitzel Recipe</h1>
+<img src="https://github.com/student1840/Portfolio-Project-ITS335/blob/main/Raw%20Meat.jpg?raw=true" style="max-width: 100%; height: auto;" alt="Picture of Uncooked Meat">
+<h2>Ingredients</h2>
+<ul>
+<li>4 thin sliced boneless pork chops</li>
+<li>1-1/4 cups of all-purpose flour</li>
+<li>2 large eggs</li>
+<li>1 cup plain breadcrumbs</li>
+<li>Clarified butter</li>
+<li>1 eight-ounce can of mushrooms</li>
+<li>2 cups beef stock/broth</li>
+<li>1/4 tsp black pepper</li>
+<li>Salt</li>
+</ul>
+</div>
+<div class="section">
+  <img src="https://github.com/student1840/Portfolio-Project-ITS335/blob/main/Flour%20and%20Egg.jpg?raw=true" style="max-width: 100%; height: auto;" alt="Picture of Eggs and Flour">
+<h2>Directions</h2>
+<ol>
+<li>Place boneless pork chops between plastic wrap and use a meat tenderizer to pound until they are about a 1/4 inch thick.</li>
+<li>Set up a breading station with three shallow dishes: one with flour, one with beaten eggs, and one with breadcrumbs.</li>
+<li>Coat each pork chop with flour, then dip in egg, then press into breadcrumbs until evenly coated. Don't press too hard as you want a loose coating.</li>
+<li>In a large skillet heat about a 1/4 inch of clarified butter over medium heat until simmering</li>
+<li>Fry pork chops one or two at a time for about 2-3 minutes per side or until golden brown and crispy</li>
+<li>Transfer to paper towels to drain, and keep warm in an oven set to low if necessary.</li>
+<li>In a separate pan, melt 2 tablespoons of butter</li>
+<li>Add flour and stir continuously for 1-1/2 minutes so the roux doesn't burn.</li>
+<li>Slowly pour in the beef stock while stirring</li>
+<li>Cook for 3 to 4 minutes, or until it thickens to a thin-syrup consistency. <li>Continue to stir gravy to avoid burning.</li>
+<li>Drain mushrooms and add them to the gravy mixture. Continue to cook for another 2 minutes while stirring.</li>
+</ol>
+  <img src="https://github.com/student1840/Portfolio-Project-ITS335/blob/main/Jager%20Schnitzel%20Picture.jpg?raw=true" style="max-width: 100%; height: auto;" alt="Picture of Eggs and Flour">
+</div>
 </body>
 </html>
